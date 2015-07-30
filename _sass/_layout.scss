@@ -72,20 +72,20 @@
     > a.post {
 	display: block;
 	float:left;
-	height: 600px;
+	height: $post-square;
 	position: relative;
-	width: 600px;
+	width: $post-square;
 	overflow:hidden;
 	> h2 {
 	    color: #fff;
-	    font-size: 200px;
-	    line-height: 200px;
+	    font-size: $post-font-size;
+	    line-height: $post-font-size;
 	    margin: 0;
 	    padding: 0;
 	    position: absolute;
 	    text-transform: uppercase;
 	    top: 0;
-	    width: 600px;
+	    width: $post-square;
 	    white-space: pre-wrap;       /* css-3 */
 	    word-wrap: break-word;
 	    word-break: break-all;
@@ -93,7 +93,7 @@
 	    z-index: 10;
 	}
 	> img {
-	    height: 600px;
+	    height: $post-square;
 	}
     }
     >a.post:hover > h2{
