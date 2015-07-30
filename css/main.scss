@@ -26,7 +26,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $width: 1200px;
 $post-square: 600px;
-$post-font-size: $post-width/3;
+$post-font-size: $post-square/3;
 
 @media (max-width: 300px) {
     $width: 300px;
