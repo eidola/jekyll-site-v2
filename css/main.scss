@@ -28,28 +28,24 @@ $width: 1200px;
 $post-square: 600px;
 $post-font-size: $width/3;
 
-$media (max-width: 300px) {
+@media (max-width: 300px) {
     $width: 300px;
     $post-square: $width;
-    $post-font-size: $post-width/3;
+    $post-font-size: $post-square/3;
 }
 
-$media (max-width: 600px) {
+@media (max-width: 600px) {
     $width: 600px;
     $post-square: $width/2;
     $post-font-size: $post-square/3;
 }
-$media (max-width: 900px) {
+@media (max-width: 900px) {
     $width: 900px;
-    $post-square: $width/2
+    $post-square: $width/2;
     $post-font-size: $post-square/3;
 }
 
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout"
-
-;
+@import "base", "layout";
