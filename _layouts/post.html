@@ -11,5 +11,15 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-
+  <h2>Related</h2>
+  <div class="post-list">
+    {% for post in site.related_posts limit: 4 %}
+    <div class="box">
+      <a class="post" href="{{ post.url }}">
+	<img src="/assets/{{ post.image }}" />
+	<h2>{{ post.title }}</h2>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
 </div>

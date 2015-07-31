@@ -11,6 +11,17 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
-
+  <h2>Releases</h2>
+  <div class="post-list">
+    {% assign releases = (site.data.releases | where: "artist", page.slug | sort: "date" ) %}
+    {% for release in  releases reversed %}
+    <div class="box release">
+      <a class="post" href="{{ site.products }}{{ release.product_id }}">
+	<img src="/assets/releases/{{ release.cat_id }}/200.png"/>
+	<h2 class="release-title">{{ release.title }}</h2>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
 </div>
 

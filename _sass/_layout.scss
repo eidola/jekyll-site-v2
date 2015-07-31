@@ -42,7 +42,7 @@
 	&:hover,
 	&:visited {
 	    color: $brand-color;
-	    text-decoration: none;
+	    text-decoration: none; 
 	}
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
@@ -85,7 +85,7 @@
 	max-width: 600px;
 	position: relative;
 	overflow: hidden;
-		
+	
 	> a.post {
 	    display: block;
 	    position: absolute;
