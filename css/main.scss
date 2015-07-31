@@ -4,7 +4,6 @@
 @charset "utf-8";
 
 
-
 // Our variables
 $header-font-family: 'League Gothic', Helvetica, Arial, sans-serif;
 $base-font-family: 'Prociono', serif;
@@ -23,27 +22,17 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 
-
-$width: 1200px;
-$post-square: 600px;
-$post-font-size: $post-square/3;
-
-@media (max-width: 300px) {
-    $width: 300px;
-    $post-square: $width;
-    $post-font-size: $post-square/3;
-}
-
-@media (max-width: 600px) {
-    $width: 600px;
-    $post-square: $width/2;
-    $post-font-size: $post-square/3;
-}
-@media (max-width: 900px) {
-    $width: 900px;
-    $post-square: $width/2;
-    $post-font-size: $post-square/3;
-}
+$sizes: (
+bp-small: 24em,
+bp-small-2: 29.75em,
+bp-small-3: 39.8em,
+bp-med: 46.8em,
+bp-med-2: 48em,
+bp-large: 50em,
+bp-large-2: 54.5em,
+bp-xl: 60em,
+bp-xl-2: 67em
+);
 
 
 
