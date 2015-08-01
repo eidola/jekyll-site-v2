@@ -162,20 +162,19 @@
 
 }
 .post-image {
-    height: 600px;
+    max-height: 600px;
     overflow: hidden;
-    width: 100%;
-    > img {
-	min-height: 600px;
+    width: auto;
+    img {
+	display: block;
+	z-index: 10;
     }
+    
 }
+
 .post-content {
     margin-bottom: $spacing-unit;
 }
-
-$pagination-colour-1: #ff9999;
-$pagination-colour-2: #ff0000;
-$pagination-colour-3: #990000;
 
 .pagination {
     margin: 25px auto;
@@ -216,7 +215,7 @@ $pagination-colour-3: #990000;
     }
     
     .previous {
-		    
+	
 	>.square {
 	    
 	    &:nth-child(1) {
@@ -231,6 +230,6 @@ $pagination-colour-3: #990000;
 	}
     }
     
-   
+    
     @extend %clearfix;
 }

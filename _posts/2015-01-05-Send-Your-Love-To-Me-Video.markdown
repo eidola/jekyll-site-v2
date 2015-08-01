@@ -4,7 +4,7 @@ title:  "Send Your Love To Me"
 summary: "Video for Yo Zushi's Send Your Love to Me from his forthcoming album"
 date:   2015-01-05 00:00:00
 artist: "Yo Zushi"
-image: "artist/yo-zushi/main.png"
+image: "yo-zushi.png"
 categories: yo zushi video
 ---
 [Yo Zushi](/artists/yo-zushi)'s *[It Never Entered My Mind]({{ site.products }}532595)* will be released in two weeks (19th January) but in the mean time check out the video Yo made to accompany the album track *Send Your Love to Me*

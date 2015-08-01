@@ -3,7 +3,7 @@ layout: post
 title:  "Bye Bye Blackbird Video Released"
 date:   2014-05-22 00:00:00
 artist: "Yo Zushi"
-image: "artist/yo-zushi/main.png"
+image: "yo-zushi.png"
 categories: yo zushi video
 ---
 {% raw %}

@@ -5,7 +5,7 @@ layout: default
   
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-image">
-    <img src="{{ site.baseurl }}/assets/{{ page.image }}"/>
+    <img src="{{ site.baseurl }}/assets/images/{{ page.image }}"/>
   </div>
   <p class="post-meta">{{ page.date | date: "%-d %B %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   <article class="post-content">
@@ -16,7 +16,7 @@ layout: default
     {% for post in site.related_posts limit: 4 %}
     <div class="box">
       <a class="post" href="{{ post.url }}">
-	<img src="/assets/{{ post.image }}" />
+	<img src="/assets/images/{{ post.image }}" />
 	<h2>{{ post.title }}</h2>
       </a>
     </div>
