@@ -7,7 +7,7 @@ permalink: /artists/
   {% for artist in site.artists %}
   <div class="box">
     <a class="post" href="{{ artist.url | prepend: site.baseurl | remove: 'index.html' }}">
-      <img src="/assets/images/{{ artist.slug }}.png" class="featured-image" />
+      <img src="{{ site.baseurl }}/assets/images/{{ artist.slug }}.png" class="featured-image" />
       <h2>{{ artist.title }}</h2>
     </a>
   </div>
