@@ -179,12 +179,15 @@
 .pagination {
     margin: 25px auto;
     margin-left: 60px;
-    
+    position: relative;
     .next, .previous {
+	display: block;
+	height: 100px;
 	> span.square {
 	    display: inline-block;
 	    height: 65px;
-	    margin-left: -60px;
+	    margin-left: -65px;
+	    position: absolute;
 	    width: 65px;
 	    -ms-transform: rotate(45deg);
 	    -webkit-transform: rotate(45deg);
@@ -205,10 +208,18 @@
 	    }
 	    &:nth-child(2) {
 		background-color: $pagination-colour-2;
+		height: 55px;
+		margin-left: -90px;
+		margin-top: 5px;
+		width: 55px;
 		z-index: 2;
 	    }
 	    &:nth-child(3) {
 		background-color: $pagination-colour-1;
+		height: 45px;
+		margin-left: -115px;
+		margin-top: 10px;
+		width: 45px;
 		z-index: 1;
 	    }
 	}
@@ -220,9 +231,18 @@
 	    
 	    &:nth-child(1) {
 		background-color: $pagination-colour-1;
+		height: 45px;
+		margin-left:0px;
+		margin-top: 10px;
+		width: 45px;
+	
 	    }
 	    &:nth-child(2) {
 		background-color: $pagination-colour-2;
+		height: 55px;
+		margin-left: -30px;
+		margin-top: 5px;
+		width: 55px;
 	    }
 	    &:nth-child(3) {
 		background-color: $pagination-colour-3;
