@@ -183,9 +183,9 @@
     .next, .previous {
 	> span.square {
 	    display: inline-block;
-	    height: 100px;
+	    height: 65px;
 	    margin-left: -60px;
-	    width: 100px;
+	    width: 65px;
 	    -ms-transform: rotate(45deg);
 	    -webkit-transform: rotate(45deg);
 	    transform: rotate(45deg);
@@ -232,4 +232,17 @@
     
     
     @extend %clearfix;
+}
+
+
+/*about styling*/
+
+.about-body {
+	margin-top:15px;
+	background-color:#e3e3e3;
+}
+
+li{
+	text-decoration:none;
+	list-style-type:none;
 }
