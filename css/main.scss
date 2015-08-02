@@ -5,7 +5,7 @@
 
 
 // Our variables
-$header-font-family: 'League Gothic', Helvetica, Arial, sans-serif;
+$header-font-family: 'League Gothic', Arial, sans-serif;
 $base-font-family: 'Prociono', serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
@@ -44,4 +44,4 @@ bp-xl-2: 67em
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "base", "layout";
+@import "base", "layout", "limitedrun";
