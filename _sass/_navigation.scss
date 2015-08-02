@@ -1,0 +1,46 @@
+nav {
+    > ul.nav {
+	position: relative;
+	list-style: none;
+	> li {
+	    float: left;
+	    margin-right: 15px;
+	    > ul {
+		display: none;
+	    }
+	    &:hover > ul {
+		background-color: $background-color;
+		display: block;
+		border: 1px solid $brand-color;
+		border-top: 2px solid $brand-color;
+		border-radius: 2px;
+		padding: 10px;
+		position: absolute;
+		right: 0;
+		width: 25%;
+		min-width: 250px;
+		max-width: 300px;
+		z-index: 20;
+		> li {
+		    display: block;
+		    width: 100%;
+		    > a {
+			color: $brand-color;
+			display: block;
+			width: 100%;
+			font-size:2em;
+			font-spacing: 1.8;
+			font-family: $header-font-family;
+			line-height: 2em;
+			@extend %no-decor;
+			&:hover {
+			    color: darken($brand-color, 10%);
+			}
+		    }
+		}
+	    }
+	    
+	}
+    }
+    
+}

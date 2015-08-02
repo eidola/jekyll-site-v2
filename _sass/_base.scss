@@ -188,7 +188,17 @@ pre {
     }
 }
 
-
+/**
+ * No Link Decor
+ */
+%no-decor {
+    &,
+    &:active,
+    &:hover,
+    &:visited {
+	text-decoration: none;
+    }
+}
 
 /**
  * Icons

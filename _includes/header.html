@@ -2,12 +2,28 @@
   <div class="wrapper">
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
     <nav class="site-nav">
+      <ul class="nav">
       {% for page in site.pages %}
-      {% if page.title %}
-      <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      {% endif %}
-      {% endfor %}
-      <a class="page-link" href="#">Shop</a>
+      
+	{% if page.title %}
+	<li>
+	  <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+	  {% if page.title == "Artists" %}
+	  <ul class="sub-nav">
+	    {% for artist in site.artists %}
+	    <li>
+	      <a href="{{ artist.url | prepend: site.baseurl | remove: 'index.html' }}">{{ artist.title }}</a>
+	    </li>
+	    {% endfor %}
+	  </ul>
+	  {% endif %}
+	</li>
+	{% endif %}
+	{% endfor %}
+	<li>
+	  <a class="page-link" href="#">Shop</a>
+	</li>
+      </ul>
     </nav>
   </div>
 </header>

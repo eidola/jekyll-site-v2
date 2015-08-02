@@ -2,7 +2,11 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+@import "mixins";
 
+// Fonts
+@include font-face('League Gothic', '/assets/fonts/league-gothic/leaguegothic-regular-webfont');
+@include font-face('Prociono', '/assets/fonts/prociono/Prociono-Regular-webfont');
 
 // Our variables
 $header-font-family: 'League Gothic', Arial, sans-serif;
@@ -44,4 +48,4 @@ bp-xl-2: 67em
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "base", "layout", "limitedrun";
+@import "base", "layout", "limitedrun", "navigation", "social";

@@ -10,6 +10,7 @@ layout: default
   <p class="post-meta">{{ page.date | date: "%-d %B %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   <article class="post-content">
     {{ content }}
+    {% include social.html %}
   </article>
   <h2>Related</h2>
   <div class="post-list">
