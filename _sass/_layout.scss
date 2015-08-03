@@ -2,10 +2,11 @@
  * Site header
  */
 .site-header {
+    font-family: $header-font-family;
     min-height: 56px;
     // Positioning context for the mobile navigation icon
     position: relative;
-    border-bottom: 2px solid $brand-color;
+    // border-bottom: 2px solid $brand-color;
 }
 
 .site-title {
@@ -27,6 +28,7 @@
 }
 
 .site-nav {
+	font-family: $header-font-family;
     float: right;
     line-height: 56px;
 
@@ -70,7 +72,7 @@
 .post-list:after {
     display: block;
     content: '';
-    border-top: 2px solid $brand-color;
+    // border-top: 2px solid $brand-color;
     @extend %clearfix;
 }
 .post-list {
@@ -94,9 +96,9 @@
 	    bottom: 0;
 	    right: 0;
 	    > h2 {
-		color: #fff;
-		font-size: 200px;
-		line-height: 200px;
+		color: #f9f9f9;
+		font-size: 140px;
+		line-height: 120px;
 		margin: 0;
 		padding: 0;
 		position: absolute;
@@ -185,10 +187,10 @@
 	height: 100px;
 	> span.square {
 	    display: inline-block;
-	    height: 65px;
+	    height: 55px;
 	    margin-left: -65px;
 	    position: absolute;
-	    width: 65px;
+	    width: 55px;
 	    -ms-transform: rotate(45deg);
 	    -webkit-transform: rotate(45deg);
 	    transform: rotate(45deg);
