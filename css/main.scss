@@ -33,21 +33,6 @@ $pagination-colour-2: #ff0000;
 $pagination-colour-3: #a40000;
 
 
-$sizes: (
-bp-small: 24em,
-bp-small-2: 29.75em,
-bp-small-3: 39.8em,
-bp-med: 46.8em,
-bp-med-2: 48em,
-bp-large: 50em,
-bp-large-2: 54.5em,
-bp-xl: 60em,
-bp-xl-2: 67em
-);
-
-i.fa {
-    color: $brand-color;
-}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base", "layout", "limitedrun", "navigation", "social";
