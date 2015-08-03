@@ -102,8 +102,7 @@ a {
     &:hover {
 	color: $brand-color;
         text-decoration: none;
-	border-bottom: 1px solid @brand-color-orange;
-        
+	border-bottom: 1px solid $brand-color-orange;
     }
 }
 
