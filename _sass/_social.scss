@@ -11,8 +11,12 @@ ul.share-buttons {
     }
 }
 footer {
-    li{
-	float: left;
-	margin-right: 5px;
+    ul {
+	@extend %clearfix;
+	li{
+	    float: left;
+	    margin-left: 5px;
+	}
     }
+    
 }
