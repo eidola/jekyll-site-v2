@@ -196,15 +196,6 @@
 		cursor: pointer;
 	    }
 	}
-	&:hover {
-	    > span.square {
-		-ms-transform: rotate(0deg);
-		-webkit-transform: rotate(0deg);
-		transform: rotate(0deg);
-	    }
-	}
-	
-	
     }
     .next {
 	>.square {
