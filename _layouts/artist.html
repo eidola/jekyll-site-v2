@@ -13,7 +13,7 @@ layout: default
   </article>
   <h2>Releases</h2>
   <div class="post-list">
-    {% assign releases = (site.data.releases | where: "artist", page.slug | sort: "date" ) %}
+    {% assign releases = (site.data.releases | where: "available", true | where: "artist", page.slug | sort: "date" ) %}
     {% for release in  releases reversed %}
     <div class="box release">
       <a class="post" href="{{ site.products }}{{ release.product_id }}">

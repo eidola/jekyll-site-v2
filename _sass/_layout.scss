@@ -188,7 +188,7 @@
 	> span.square {
 	    display: inline-block;
 	    height: 55px;
-	    margin-left: -65px;
+	    margin-left: -55px;
 	    position: absolute;
 	    width: 55px;
 	    -ms-transform: rotate(45deg);
@@ -208,18 +208,18 @@
 	    }
 	    &:nth-child(2) {
 		background-color: $pagination-colour-2;
-		height: 55px;
-		margin-left: -90px;
+		height: 45px;
+		margin-left: -80px;
 		margin-top: 5px;
-		width: 55px;
+		width: 45px;
 		z-index: 2;
 	    }
 	    &:nth-child(3) {
 		background-color: $pagination-colour-1;
-		height: 45px;
-		margin-left: -110px;
+		height: 35px;
+		margin-left: -100px;
 		margin-top: 10px;
-		width: 45px;
+		width: 35px;
 		z-index: 1;
 	    }
 	}
@@ -231,18 +231,18 @@
 	    
 	    &:nth-child(1) {
 		background-color: $pagination-colour-1;
-		height: 45px;
-		margin-left:0px;
+		height: 35px;
+		margin-left:10px;
 		margin-top: 10px;
-		width: 45px;
+		width: 35px;
 	
 	    }
 	    &:nth-child(2) {
 		background-color: $pagination-colour-2;
-		height: 55px;
-		margin-left: -30px;
+		height: 45px;
+		margin-left: -20px;
 		margin-top: 5px;
-		width: 55px;
+		width: 45px;
 	    }
 	    &:nth-child(3) {
 		background-color: $pagination-colour-3;
