@@ -45,7 +45,9 @@ bp-xl: 60em,
 bp-xl-2: 67em
 );
 
-
+i.fa {
+    color: $brand-color;
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base", "layout", "limitedrun", "navigation", "social";
