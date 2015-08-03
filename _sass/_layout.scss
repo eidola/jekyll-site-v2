@@ -22,6 +22,7 @@
     &:active,
     &:hover,
     &:visited {
+	border: 0;
 	color: $brand-color;
         text-decoration: none;
     }
