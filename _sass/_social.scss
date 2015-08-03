@@ -1,12 +1,17 @@
 ul.share-buttons {
     margin:0;
     padding:0;
-    list-style: none;
+    list-style-type: none;
     > li {
 	float: left;
-	margin-right: 5px;
+	margin-right: 20px;
 	> a {
 	    font-size: 24px;
 	}
     }
+}
+
+li{
+    display:inline-block;
+	padding:50px;
 }
