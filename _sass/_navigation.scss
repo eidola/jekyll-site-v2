@@ -9,7 +9,7 @@ nav {
 		display: none;
 	    }
 	    &:hover > ul {
-		background-color: $background-color;
+		background-color: rgba(253, 253, 253, 0.7);
 		display: block;
 		border: 1px solid $brand-color;
 		border-top: 2px solid $brand-color;
