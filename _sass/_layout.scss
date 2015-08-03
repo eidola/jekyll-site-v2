@@ -176,6 +176,8 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    @extend %clearfix;
+    
 }
 
 .pagination {
