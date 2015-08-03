@@ -1,7 +1,7 @@
 <div class="pagination">
   <div class="left">
     {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous" title="Previous">
       <span class="square"></span>
       <span class="square"></span>
       <span class="square"></span>
@@ -16,7 +16,7 @@
   </div>
   <div class="right">
     {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next" title="Next">
       <span class="square"></span>
       <span class="square"></span>
       <span class="square"></span>
